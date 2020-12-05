@@ -9,16 +9,16 @@
 
 .wrapper h2:before,
 .wrapper h2:after{
-  content: '🍎'
+  content: ''
 }
 
 .wrapper h4{
   font-size: 17px;
+  color: #666;
 }
 
-.wrapper h4:before,
-.wrapper h4:after{ 
-content:"🍊";
+.wrapper h4:before{ 
+content:"☛";
 }
 
 .wrapper h1,
