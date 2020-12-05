@@ -7,10 +7,27 @@
   color: black;
 }
 
+.wrapper h2:before,
+.wrapper h2:after{
+  content: '🍎'
+}
+
 .wrapper h4{
   font-size: 17px;
 }
 
-.wrapper h4:before{ 
-content:"**";
+.wrapper h4:before,
+.wrapper h4:after{ 
+content:"🍊";
 }
+
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper h4,
+.wrapper h5,
+.wrapper h6 {
+
+    text-align: center;
+}
+
